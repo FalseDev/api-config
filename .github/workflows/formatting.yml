@@ -1,7 +1,6 @@
 on: [push, pull_request]
 
 name: "Formatting"
-description: 'Checks that all files match "prettier" code style'
 
 jobs:
   prettier:
