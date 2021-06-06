@@ -1,0 +1,13 @@
+on: [push, pull_request]
+
+name: "Formatting"
+description: 'Checks that all files match "prettier" code style'
+
+jobs:
+  prettier:
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - run: npx prettier --check --loglevel debug .
