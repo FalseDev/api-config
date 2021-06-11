@@ -1,0 +1,9 @@
+[
+  {
+    "name": "pupil",
+    "filename": "config/images/pupil.jpg",
+    "mids": [[100, 300]],
+    "color": [0, 0, 0],
+    "scale": [50, 50]
+  }
+]
