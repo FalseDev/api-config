@@ -1,9 +1,7 @@
-on:
-  push
+on: push
   pull_request
 
 name: CI
-
 
 jobs:
   verify_schema:
@@ -19,4 +17,3 @@ jobs:
 
       - name: Verify config
         run: python3 config/scripts/verify.py
-
