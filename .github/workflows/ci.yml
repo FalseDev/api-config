@@ -14,6 +14,9 @@ jobs:
         with:
           path: config
 
-      - name: Rename files
+      - name: Install test dependencies
+        run: python3 -m pip install pydantic pillow
+
+      - name: Verify config
         run: python3 config/scripts/verify.py
 
