@@ -1,0 +1,19 @@
+on:
+  push
+  pull_request
+
+name: CI
+
+
+jobs:
+  verify_schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          path: config
+
+      - name: Rename files
+        run: python3 config/scripts/verify.py
+
