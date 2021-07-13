@@ -4,6 +4,7 @@
     "filename": "config/images/pupil.jpg",
     "mids": [[140, 325]],
     "color": [0, 0, 0],
-    "scale": [50, 50]
+    "scale": [50, 50],
+    "max_width": 10
   }
 ]

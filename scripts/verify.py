@@ -22,6 +22,7 @@ class TextDrawConfig(BaseConfig):
     mids: list[tuple[u32, u32]]
     color: tuple[u32, u32, u32]
     scale: tuple[f32, f32]
+    max_width: int
 
 
 class Config(BaseModel):
