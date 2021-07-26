@@ -1,0 +1,15 @@
+[[textdraws]]
+name = "pupil"
+filename = "config/images/pupil.jpg"
+mids = [ [ 140, 325,],]
+color = [ 0, 0, 0,]
+scale = [ 50, 50,]
+max_width = 13
+
+[[overlays]]
+name = "wanted"
+filename = "config/images/wanted.jpg"
+coords = [ 50, 50,]
+resize = [ 100, 100,]
+input_size = 256
+
