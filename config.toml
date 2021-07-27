@@ -1,9 +1,12 @@
+textdraw_text_max_len = 50
+
 [[textdraws]]
 name = "pupil"
 filename = "config/images/pupil.jpg"
 mids = [ [ 140, 325,],]
 color = [ 0, 0, 0,]
 scale = [ 50, 50,]
+font = "config/fonts/Impact.ttf"
 max_width = 13
 
 [[overlays]]
