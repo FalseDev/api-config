@@ -1,6 +1,7 @@
 textdraw_text_max_len = 50
 blur_sigma = 1.0
 colorfill_image_size = 256
+allow_local_file_input = false
 
 [[textdraws]]
 name = "pupil"
