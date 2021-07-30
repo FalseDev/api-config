@@ -15,7 +15,7 @@ max_width = 13
 [[overlays]]
 name = "wanted"
 filename = "config/images/wanted.jpg"
-coords = [ 50, 50,]
-resize = [ 100, 100,]
+coords = [ 80, 181,]
+resize = [ 340, 340,]
 input_size = 256
 
