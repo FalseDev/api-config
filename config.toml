@@ -28,6 +28,14 @@ scale = [20,20,]
 font = "config/fonts/Impact.ttf"
 max_width = 23
 
+name="truthscroll"
+filename="config/images/Scroll-of-Truth.jpg"
+mids = [ [348, 850,],]
+color = [0, 0, 0,]
+scale = [40,40,]
+font = "config/fonts/HiMelody-Regular.ttf"
+max_width = 10
+
 
 [[overlays]]
 name = "wanted"
