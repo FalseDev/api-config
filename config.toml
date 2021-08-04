@@ -12,27 +12,30 @@ scale = [ 50, 50,]
 font = "config/fonts/Impact.ttf"
 max_width = 13
 
-name="drake"
-filename="config/images/Drake.jpg"
+[[textdraws]]
+name = "drake"
+filename = "config/images/Drake.jpg"
 mids = [ [ 900, 300,], [900, 900,],]
-color = [0, 0, 0,]
-scale = [90, 90,]
+color = [ 0, 0, 0,]
+scale = [ 90, 90,]
 font = "config/fonts/Impact.ttf"
 max_width = 13
 
-name="changemymind"
-filename="config/images/Change-My-Mind.jpg"
-mids = [ [320, 250,],]
-color = [0, 0, 0,]
-scale = [20,20,]
+[[textdraws]]
+name = "changemymind"
+filename = "config/images/Change-My-Mind.jpg"
+mids = [ [ 320, 250,],]
+color = [ 0, 0, 0,]
+scale = [ 20,20,]
 font = "config/fonts/Impact.ttf"
 max_width = 23
 
-name="truthscroll"
-filename="config/images/Scroll-of-Truth.jpg"
-mids = [ [348, 850,],]
-color = [0, 0, 0,]
-scale = [40,40,]
+[[textdraws]]
+name = "truthscroll"
+filename = "config/images/Scroll-of-Truth.jpg"
+mids = [ [ 348, 850,],]
+color = [ 0, 0, 0,]
+scale = [ 40,40,]
 font = "config/fonts/HiMelody-Regular.ttf"
 max_width = 10
 
