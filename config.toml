@@ -39,6 +39,14 @@ scale = [ 40,40,]
 font = "config/fonts/HiMelody-Regular.ttf"
 max_width = 10
 
+[[textdraws]]
+name = "panik"
+filename = "config/images/Panik.png"
+mids = [ [ 156, 113,], [ 156, 410,], [ 156, 700],]
+color = [ 0, 0, 0,]
+scale = [ 47, 47,]
+font = "config/fonts/RobotoMono-Regular.ttf"
+max_width = 12
 
 [[overlays]]
 name = "wanted"
